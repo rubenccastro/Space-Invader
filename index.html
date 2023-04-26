@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body style="margin: 0;">
+    <div id="gamestart">
+        <div id="start" style="display:block;">
+            <a href="#" onclick="startGame()">Start Game</a>
+        </div>
+    </div>
+    <p style="position: fixed; z-index: 10; color:white; left:10px;"><span>Score:</span> <span id="scoreEl">0</span></p>
+    <canvas id="game" style="display:none;"></canvas>
+    <script src="index.js"></script>
+</body>
+
+</html>
